@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.mvbg_price {
+    background-color: #003366;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.ul_mv_ttl h1 {
+    margin: 0;
+    font-size: 36px;
+}
+.ul_mv_ttl p {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+.price {
+    text-align: center;
+}
+.plan {
+    display: flex;
+    justify-content: space-around;
+}
+.price_box01, .price_box02, .price_box03 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.price_box01 h3, .price_box02 h3, .price_box03 h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+h4 {
+    margin: 20px 0;
+    font-size: 28px;
+    color: #333;
+}
+p {
+    color: #666;
+    font-size: 14px;
+}
+h5 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #333;
+}
+.btn_inner {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn_inner:hover {
+    background-color: #218838;
+}
+.annotation {
+    margin-top: 30px;
+    color: #666;
+    font-size: 12px;
+}
+.plan_txt ul {
+    list-style-type: none;
+    padding-left: 0;
+    color: #666;
+    font-size: 14px;
+}
+.plan_txt ul li {
+    margin-bottom: 10px;
+}
