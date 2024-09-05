@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>料金プラン</title>
+    <!-- CSSファイルへのリンク -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <div class="mvbg_price">
+        <div class="ul_mv_ttl">
+            <h1>PRICING</h1>
+            <p>料金</p>
+        </div>
+    </div>
+
+    <section class="price">
+        <div class="container">
+            <div class="plan">
+                <div class="price_box01">
+                    <h3>1Hour trial ticket</h3>
+                    <h4><span class="price_txt_min">¥</span>19,800</h4>
+                    <p>COOメンバーの実働時間</p>
+                    <h5>1<span class="price_txt_min">時間</span><span class="price_txt_min02">／単発</span></h5>
+                    <!-- Stripe Pricing Table -->
+                    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+                    <stripe-pricing-table pricing-table-id="prctbl_1PvWtmRo7oAOfBjPHA33ZOP4"
+                    <!-- publishable-key=""> -->
+                    </stripe-pricing-table>
+                </div>
+
+                <div class="price_box02">
+                    <h3>Basic</h3>
+                    <h4><span class="price_txt_min">¥</span>89,000</h4>
+                    <p>COOメンバーの実働時間</p>
+                    <h5>5<span class="price_txt_min">時間</span><span class="price_txt_min02">／月</span></h5>
+                    <!-- 問い合わせリンク -->
+                    <a class="btn_inner" href="https://xedndqq9ctq.typeform.com/to/tSFBU2iq">お問合せ下さい</a>
+                </div>
+
+                <div class="price_box03">
+                    <h3>Standard</h3>
+                    <h4><span class="price_txt_min">¥</span>150,000</h4>
+                    <p>COOメンバーの実働時間</p>
+                    <h5>10<span class="price_txt_min">時間</span><span class="price_txt_min02">／月</span></h5>
+                    <!-- 問い合わせリンク -->
+                    <a class="btn_inner" href="https://xedndqq9ctq.typeform.com/to/tSFBU2iq">お問合せ下さい</a>
+                </div>
+            </div>
+
+            <p class="annotation">※ Basic, Standardのプランはサブスクリプション契約となります。トライアルのみ単発です。</p>
+
+            <div class="plan_txt">
+                <ul>
+                    <li>1.上記費用は税抜き価格となります。</li>
+                    <li>2.契約は自動更新となります。有期契約をご希望の場合は事前にご相談下さい。</li>
+                    <li>3.上記を超えるプランや土日祝日の対応をご希望の際は、別途お見積もりいたします。</li>
+                    <li>4.事前の要件定義を超える専門的な業務は、別途お見積もりいたします。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
